@@ -48,7 +48,7 @@ for char in reversed(phrase):
     print(char)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema3_2.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_3/pic/tema3_2.png)
 
 ## Выводы
 Этот код использует цикл for, который проходит по символам фразы "Hello World" в обратном порядке с помощью функции reversed(), а затем выводит каждый символ на отдельной строке с помощью функции print().
@@ -72,7 +72,7 @@ else:
     print("Введенное число не находится в требуемом диапазоне")
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema3_3.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_3/pic/tema3_3.png)
 
 ## Выводы
 Данный код принимает число от пользователя в диапазоне от 0 до 10. Затем программа проверяет, в каком диапазоне находится введенное число, и выводит соответствующее сообщение в консоль:
@@ -125,7 +125,7 @@ else:
     print("Предложение не начинается с 'The' или 'епd'")
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema3_4.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_3/pic/tema3_4.png)
 
 ## Выводы
 Этот код выполняет обработку введенного пользователем предложения согласно указанным операциям и предоставляет информацию о его характеристиках и содержании.
@@ -158,7 +158,7 @@ while counter < 11:
     counter += 1
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema3_5.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_3/pic/tema3_5.png)
 
 ## Выводы
 Это программный код, который использует переменную counter для контроля количества итераций в цикле while. В цикле проверяется, является ли текущее значение counter четным числом. Если да, то выводится строка "hello world", а если нет, то выводится строка "hello". Таким образом, программа выводит строку "hello world" для каждой четной итерации и строку "hello" для каждой нечетной итерации. В результате работы программы последовательно выводятся 6 строк "hello world" и 5 строк "hello", что дает в сумме 11 строк.
