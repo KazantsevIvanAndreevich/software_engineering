@@ -34,7 +34,7 @@ print("Список:", number_list)
 print("Кортеж:", number_tuple)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/pic/tema6_1.png)
 
 ## Выводы
 Этот код сначала запрашивает у пользователя ввод последовательности чисел, разделенных пробелом. Затем он разделяет введенные данные на числа и преобразует их в список при помощи метода split() и функции map(). После этого список преобразуется в кортеж с помощью функции tuple(). Наконец, программа выводит полученный список и кортеж.
@@ -79,7 +79,7 @@ for tup, elem in data:
     print(result)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_2.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/pic/tema6_2.png)
 
 ## Выводы
 Эта функция принимает кортеж tup и элемент element, который нужно удалить из кортежа. Если элемент найден в кортеже, то удаляется его первое появление, иначе возвращается исходный кортеж.
@@ -116,7 +116,7 @@ result = count_digits(s)
 print("Словарь из трех самых часто встречаемых чисел:", result)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_3.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/pic/tema6_3.png)
 
 ## Выводы
 Эта функция принимает строку s и подсчитывает количество каждой цифры в ней, затем выбирает три самых часто встречаемых числа и выводит их значения в порядке возрастания ключа. В конце функция возвращает словарь из этих трех чисел.
@@ -163,7 +163,7 @@ for log, id in logs:
     print(result)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_4.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/pic/tema6_4.png)
 
 ## Выводы
 Эта функция принимает кортеж log и элемент id, и возвращает новый кортеж, начинающийся с первого появления элемента в исходном кортеже и заканчивающийся вторым его появлением включительно. Если элемента нет в кортеже, возвращается пустой кортеж. Если элемент встречается только один раз, возвращается часть кортежа, начиная с него.
@@ -195,7 +195,7 @@ for lst, expected_result in tests:
 print("Все тесты пройдены успешно!")
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_5.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_6/pic/tema6_5.png)
 
 ## Выводы
 Этот код выводит исходный список и отсортированные уникальные элементы для каждого теста после его выполнения.
