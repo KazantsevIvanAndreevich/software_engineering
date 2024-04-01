@@ -27,7 +27,7 @@
 print(0 == 1)
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_1.png)
 
 ## Выводы
 Для печати значений в Питоне есть функция print().
@@ -39,7 +39,7 @@ a = 1; b = 2; c = 3
 print(a, b, c)
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_2.png)
 
 ## Выводы
 Мы можем присвоить значения трем переменным и вывести их в консоль в двух строках кода, разделив присваивание и вывод с помощью точки с запятой
@@ -51,7 +51,7 @@ values = list(map(int, input("Введите целые числа через п
 print("Введенные числа:", values)
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_3.png)
 
 ## Выводы
 Этот код запрашивает у пользователя ввод нескольких целых чисел через пробел, а затем выводит эти числа в виде списка. Программа будет работать только в том случае, если пользователь введет целые числа, разделенные пробелами. Если вводится что-то отличное от целых чисел, программа вызовет ошибку.
@@ -63,7 +63,7 @@ s = "kazantsev" * 3
 print(s)
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_4.png)
 
 ## Выводы
 Можно использовать операцию умножения для увеличения длины строки
@@ -75,7 +75,7 @@ day, month, year = 1, "января", 2024
 print(f"Сегодня {day} {month} {year}.", end=" Всего хорошего!")
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_5.png)
 
 ## Выводы
 Используется F-строка для форматированного вывода текущей даты в заданном формате. 
@@ -86,7 +86,7 @@ print(f"Сегодня {day} {month} {year}.", end=" Всего хорошего
 print("Hello my World", end="")
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_6.png)
 
 ## Выводы
 Выводится  строка в одну строку без переноса на новую строку, благодаря параметру end="".
@@ -97,7 +97,7 @@ print("Hello my World", end="")
 print(len("Hello Word"))
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_7.png)
 
 ## Выводы
 Этот код определяет длину строки "Hello Word", используя функцию len(), которая возвращает количество символов в строке, и затем выводит результат в консоль.
@@ -108,7 +108,7 @@ print(len("Hello Word"))
 print("HELLO WORLD".lower())
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_8.png)
 
 ## Выводы
 Этот код берет строку "HELLO WORLD" и преобразует ее в нижний регистр с помощью метода lower(), а затем выводит результат в консоль.
@@ -126,7 +126,7 @@ average_score = total_score / num_subjects
 print(f"Средняя оценка за {num_subjects} предметов: {average_score}")
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_9.png)
 
 ## Выводы
 Эта программа позволяет пользователю ввести количество предметов и оценки за каждый предмет. Затем она вычисляет и выводит среднюю оценку за все предметы.
@@ -142,7 +142,7 @@ count = text.lower().count(word.lower())
 print(f"Слово '{word}' встречается в тексте {count} раз.")
 ```
 ### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_10.png)
 
 ## Выводы
 Эта программа позволяет пользователю ввести текст и слово, которое необходимо найти в этом тексте. Затем она подсчитывает количество вхождений этого слова в тексте (регистр не учитывается) и выводит результат.
