@@ -53,7 +53,7 @@ if __name__ == '__main__':  # Проверяем, запущен ли скрип
     print(f"Время выполнения программы - {time_costs}")  # Выводим время выполнения на экран с помощью форматированной строки
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_4/pic/tema4_1.png)
 
 ## Выводы
  В коде определена функция main, которая вычисляет квадратный корень суммы квадратов значений списка для каждой пары ключ-значение в переданных аргументах. Время выполнения программы записывается в переменную time_costs и выводится на экран.
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     roll_dice()
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_2.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_4/pic/tema4_2.png)
 
 ## Выводы
 Эта программа использует стандартную библиотеку random, чтобы сгенерировать значение игрального кубика. Затем она проверяет значение, выводит его на экран и определяет результат игры в соответствии с вашими условиями. Если значение равно 5 или 6, выводится сообщение "Вы победили". Если значение равно 3 или 4, программа рекурсивно вызывает функцию roll_dice() для повторного броска кубика. Если значение равно 1 или 2, выводится сообщение "Вы проиграли".
@@ -96,7 +96,7 @@ for _ in range(5):
     time.sleep(1)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_3.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_4/pic/tema4_3.png)
 
 ## Выводы
 Этот код создает цикл, который повторяется 5 раз. На каждой итерации он получает текущее время с помощью datetime.datetime.now(), форматирует его в строку с помощью .strftime("%H:%M:%S") и выводит его в консоль. Затем программа засыпает на 1 секунду перед следующей итерацией с помощью time.sleep(1).
@@ -117,7 +117,7 @@ if __name__ == "__main__":
     print("Среднее арифметическое:", result)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_4.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_4/pic/tema4_4.png)
 
 ## Выводы
 Этот код определяет функцию average, которая принимает произвольное количество аргументов (*args). Если количество аргументов равно 0, функция возвращает 0. В противном случае она вычисляет сумму всех аргументов с помощью sum() и делит эту сумму на количество аргументов для получения среднего арифметического.
@@ -151,7 +151,7 @@ if __name__ == "__main__":
     main()
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_5.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_4/pic/tema4_5.png)
 
 ## Выводы
 Два Python файла: один для вычисления площади треугольника по формуле Герона через функцию, а другой для взаимодействия с пользователем (получение информации о длинах сторон треугольника и вывод результатов). После создания файлов и выполнения программы из файла для взаимодействия с пользователем, программа выведет площадь треугольника в консоль.
