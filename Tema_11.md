@@ -31,7 +31,7 @@ for num in fibonacci_sequence:
     print(num)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/tema11_1.png)
 
 ## Выводы
 Этот код создает функцию fib, которая генерирует последовательность чисел Фибоначчи по мере запроса, минимизируя затраты ресурсов на хранение всей последовательности в памяти. При вызове функции fib с аргументом n, она будет возвращать итератор, который выдает первые n чисел Фибоначчи по одному при каждом обращении.
@@ -56,7 +56,7 @@ for num in fibonacci_sequence:
     print(num)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_2.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_11/pic/tema11_2.png)
 
 ## Выводы
 Этот код сохраняет каждое число Фибоначчи в файл "fib.txt" после того, как оно было сгенерировано. Каждое число записывается на отдельной строке.
