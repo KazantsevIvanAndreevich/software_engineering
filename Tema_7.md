@@ -41,7 +41,7 @@ print(f"Количество слов в файле: {word_count}")
 print(f"Самое часто встречающееся слово: '{most_common_word[0]}' (встречается {most_common_word[1]} раз)")
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_7/pic/tema7_1.png)
 
 ## Выводы
 После выполнения программы в консоли будет выведена информация о количестве слов в файле и самом часто встречающемся слове.
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     main()
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_2.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_7/pic/tema7_2.png)
 
 ## Выводы
 Данные о расходах сохраняются в текстовом файле expenses.txt. Каждая строка в файле представляет собой пару "категория:сумма". При запуске программы данные загружаются из этого файла, и пользователь может добавлять новые расходы или просматривать текущие. После каждого изменения данные сохраняются в файл.
@@ -155,7 +155,7 @@ file_name = "input.txt"
 count_statistics(file_name)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_3.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_7/pic/tema7_3.png)
 
 ## Выводы
 ЭЭтот код открывает файл input.txt, читает его построчно и подсчитывает количество букв, слов и строк в тексте. Результаты выводятся в консоль.
@@ -195,7 +195,7 @@ censored_result = censor_sentence(sentence, forbidden_words)
 print("Результат:", censored_result)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_4.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_7/pic/tema7_4.png)
 
 ## Выводы
 Этот код выполняет цензурирование предложения, заменяя запрещенные слова на звездочки. Вот пошаговое объяснение:
@@ -243,7 +243,7 @@ print("Количество предложений в статье:", sentence_c
 print("Средняя длина слова в статье:", round(average_word_length, 2))
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_5.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_7/pic/tema7_5.png)
 
 ## Выводы
 риведенный код выполняет следующие действия:
