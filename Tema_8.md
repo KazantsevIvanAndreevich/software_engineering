@@ -30,7 +30,7 @@ john = Person()
 print(john)
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_1.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pic/tema8_1.png)
 
 ## Выводы
 Класс Person определен с помощью ключевого слова pass. Затем мы создаем объект john этого класса и выводим его в консоль.
@@ -53,7 +53,7 @@ john = Person("John", 30)
 john.greet()
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_2.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pic/tema8_2.png)
 
 ## Выводы
 У класса Person есть атрибуты name и age, которые инициализируются при создании объекта класса. Метод greet использует значения этих атрибутов для вывода приветствия.
@@ -88,7 +88,7 @@ alice.greet()
 alice.introduce()
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_3.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pic/tema8_3.png)
 
 ## Выводы
 Этот код создает класс Person, который имеет атрибуты name и age, а также метод greet, который выводит приветствие с именем и возрастом. Затем создается дочерний класс Employee, который наследует функциональность класса Person и добавляет к нему атрибут position и метод introduce, который выводит приветствие с именем, возрастом и должностью сотрудника.
@@ -125,7 +125,7 @@ alice.greet()             # Выведет: Привет, меня зовут Al
 alice.introduce()         # Выведет: Привет, меня зовут Alice, мне 25 лет, и я работаю на должности менеджер.
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_4.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pic/tema8_4.png)
 
 ## Выводы
 В этом примере мы используем защищенные атрибуты, которые начинаются с префикса _, чтобы предотвратить прямой доступ к ним извне класса. Однако, защищенные атрибуты по-прежнему доступны из подклассов и могут быть использованы в публичных методах класса для работы с данными.
@@ -168,7 +168,7 @@ print_area(rectangle)  # Вывод: Area: 15
 print_area(circle)     # Вывод: Area: 50.26548245743669
 ```
 ### Результат.
-![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/pic/tema2_5.png)
+![Меню](https://github.com/KazantsevIvanAndreevich/software_engineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/pic/tema8_5.png)
 
 ## Выводы
 Модульность и повторное использование кода: ООП позволяет разбивать программу на небольшие модули, каждый из которых отвечает за определенную функциональность. Это способствует повторному использованию кода и упрощает его сопровождение.
